@@ -1,4 +1,4 @@
-name: load log file
+name: load_log_file
 
 on:
   push:
