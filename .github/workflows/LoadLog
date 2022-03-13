@@ -1,0 +1,16 @@
+name: load log file
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+    name: Save output
+    steps:
+      - name: Download a single artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: output-log-file
