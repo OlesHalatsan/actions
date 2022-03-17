@@ -12,4 +12,3 @@ jobs:
       - run: bats -v
       - name: Run MATLAB Command
         uses: OlesHalatsan/run-command@v1.0.1
-
